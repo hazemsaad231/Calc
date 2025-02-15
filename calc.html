@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="calc.css">
+<body>
+
+
+    <div class="calc">
+
+            <tr>
+                <input type="text" name="screen" class="screen"  id="screen">
+                <td><button onclick= "appendToScreen('1')" class="btn" id="btn1">1</button></td>
+                <td><button  onclick= "appendToScreen('2')" class="btn" id="btn2">2</button></td>
+                <td><button  onclick= "appendToScreen('3')" class="btn" id="btn3">3</button></td>
+                <td><button  onclick= "appendToScreen('4')" class="btn" id="btn4">4</button></td>
+
+
+                <td><button  onclick= "appendToScreen('5')" class="btn" id="btn5">5</button></td>
+                <td><button   onclick= "appendToScreen('6')" class="btn" id="btn6">6</button></td>
+                <td><button    onclick= "appendToScreen('7')"class="btn" id="btn7">7</button></td>
+                <td><button   onclick= "appendToScreen('8')" class="btn" id="btn8">8</button></td>
+
+
+                <td><button  onclick= "appendToScreen('9')"  class="btn" id="btn9">9</button></td>
+                <td><button   onclick= "appendToScreen('0')" class="btn" id="btn10">0</button></td>
+                <td><button   onclick= "appendToScreen('-')" class="btn" id="btn11">-</button></td>
+                <td><button    onclick= "appendToScreen('+')" class="btn" id="btn12">+</button></td>
+
+
+
+                <td><button  onclick= "appendToScreen('*')"  class="btn" id="btn13">*</button></td>
+                <td><button    onclick= "appendToScreen('/')" class="btn" id="btn14">/</button></td>
+                <td><button   onclick= "appendToScreen('.')" class="btn" id="btn15">.</button></td>
+                <td><button   onclick= "appendToScreen('%')" class="btn" id="btn16">%</button></td>
+                <td><button   onclick= "appendToScreen('(')" class="btn" id="btn16">(</button></td>
+                <td><button   onclick= "appendToScreen(')')" class="btn" id="btn16">)</button></td>
+                <td><button   onclick= 'calcScreen()' class="btn" id="btn17">=</button></td>
+                <td><button    onclick= "clearScreen()" class="btn" id="btn18">clear</button></td>
+             
+
+              
+            
+            </tr>
+        </table>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
