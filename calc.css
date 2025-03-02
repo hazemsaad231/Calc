@@ -13,7 +13,7 @@
 .screen{
     width: 350px;
     height: 60px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 15px;
@@ -47,4 +47,39 @@
 #btn17{
     background-color: orange;
     color: aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .calc{
+        background:linear-gradient(45deg,#0a0a0a,#3a4452);
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        border: solid 5px;
+    }
+    .screen{
+        width: 90%;
+        height: 60px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        font-size: xx-large;
+        background:linear-gradient(45deg,#0a0a0a,#3a4452);
+        outline: none;
+        color: aliceblue;
+       
+    }
+    .btn{
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        border-radius: 50px;
+        font-size: 20px;
+        margin-top: 10px;
+
+    }
 }
